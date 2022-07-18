@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  mydate =new Date();
+  myJson={name:'Saba',age:'24',department:'Front End Developer',address:{city:'Sana',phoneNumber:'74384784'}}
+  myArrayNum=[22,33,44,55,66,77,88]
   printNumber1=12;
   printNumber2=12
   sum(){
