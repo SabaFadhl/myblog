@@ -14,6 +14,8 @@ export class AppComponent {
   onClick1() {
     console.log("You have just, clicked!!");
   }
+
+  someText:string="You can change me";
   title = 'myblog';
   myInfo=true;
   myname="Saba Fadhl"
