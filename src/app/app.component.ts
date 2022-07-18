@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  printNumber1=12;
+  printNumber2=12
+  sum(){
+    return this.printNumber1+this.printNumber2;
+  }
+  onClick1() {
+    console.log("You have just, clicked!!");
+  }
   title = 'myblog';
   myInfo=true;
   myname="Saba Fadhl"
